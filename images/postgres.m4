@@ -1,6 +1,7 @@
 #whatwedo PostgreSQL image
 
 include(`modules/head.m4')
+include(`modules/deprecation-notice.m4')
 include(`modules/postgres.m4')
 include(`modules/cleanup.m4')
 

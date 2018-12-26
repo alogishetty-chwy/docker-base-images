@@ -1,6 +1,7 @@
 # whatwedo ownCloud image
 
 include(`modules/head.m4')
+include(`modules/deprecation-notice.m4')
 include(`modules/apache.m4')
 include(`modules/php70.m4')
 

@@ -1,6 +1,7 @@
 #whatwedo MongoDB image
 
 include(`modules/head.m4')
+include(`modules/deprecation-notice.m4')
 include(`modules/mongodb.m4')
 include(`modules/cleanup.m4')
 

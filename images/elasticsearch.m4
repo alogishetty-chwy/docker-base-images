@@ -1,6 +1,7 @@
 #whatwedo apache image
 
 include(`modules/head.m4')
+include(`modules/deprecation-notice.m4')
 include(`modules/java.m4')
 include(`modules/elasticsearch.m4')
 include(`modules/cleanup.m4')

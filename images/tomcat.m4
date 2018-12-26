@@ -1,6 +1,7 @@
 #whatwedo Tomcat image
 
 include(`modules/head.m4')
+include(`modules/deprecation-notice.m4')
 include(`modules/java.m4')
 include(`modules/maven.m4')
 include(`modules/tomcat.m4')
