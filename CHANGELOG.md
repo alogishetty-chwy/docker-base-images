@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## v1.7.2 - 2018-12-27
+
+### Changed
+
+* whatwedo/apache-php56: marked as deprecated
+* whatwedo/apache-php70: marked as deprecated
+* whatwedo/apache-php71: marked as deprecated
+* whatwedo/apache-php72: marked as deprecated
+* whatwedo/apache: marked as deprecated
+* whatwedo/bind: marked as deprecated
+* whatwedo/cloudflare-railgun: marked as deprecated
+* whatwedo/docker: marked as deprecated
+* whatwedo/elasticsearch: marked as deprecated
+* whatwedo/golang: marked as deprecated
+* whatwedo/icinga2: marked as deprecated
+* whatwedo/java: marked as deprecated
+* whatwedo/kibana: marked as deprecated
+* whatwedo/logstash-forwarder: marked as deprecated
+* whatwedo/logstash: marked as deprecated
+* whatwedo/mariadb: marked as deprecated
+* whatwedo/memcached: marked as deprecated
+* whatwedo/mongodb: marked as deprecated
+* whatwedo/nextcloud: marked as deprecated
+* whatwedo/node: marked as deprecated
+* whatwedo/owncloud: marked as deprecated
+* whatwedo/postgres: marked as deprecated
+* whatwedo/puppet-client: marked as deprecated
+* whatwedo/redis: marked as deprecated
+* whatwedo/ruby: marked as deprecated
+* whatwedo/squid: marked as deprecated
+* whatwedo/tomcat: marked as deprecated
+* whatwedo/wordpress: marked as deprecated
+
+
 ## v1.7.1 - 2018-11-28
 
 ### Bugfixes
