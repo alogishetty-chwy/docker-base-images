@@ -20,7 +20,7 @@ RUN chmod 755 /usr/lib/nagios/plugins/check_symfony
 
 # Add Slack integration
 RUN apt-get -y install libwww-perl libcrypt-ssleay-perl
-RUN wget https://raw.github.com/tinyspeck/services-examples/master/nagios.pl
+RUN wget https://raw.github.com/tinyspeck/services-examples/v1.7/nagios.pl
 RUN mv nagios.pl /usr/local/bin/slack_nagios.pl
 RUN chmod 755 /usr/local/bin/slack_nagios.pl
 

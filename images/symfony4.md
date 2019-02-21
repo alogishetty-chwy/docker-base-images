@@ -25,7 +25,7 @@ docker run -p 80:80 whatwedo/symfony4
 
 ## Built
 
-Because we are using several base images with recurring tasks in the Dockerfile, we are using a script to include commands. This script is available under [https://github.com/whatwedo/docker-base-images/blob/master/docker-builder.sh](https://github.com/whatwedo/docker-base-images/blob/master/docker-builder.sh)
+Because we are using several base images with recurring tasks in the Dockerfile, we are using a script to include commands. This script is available under [https://github.com/whatwedo/docker-base-images/blob/v1.7/docker-builder.sh](https://github.com/whatwedo/docker-base-images/blob/v1.7/docker-builder.sh)
 
 ## Bugs and Issues
 
@@ -33,7 +33,7 @@ If you have any problems with this image, feel free to open a new issue in our i
 
 ## License
 
-This image is licensed under the MIT License. The full license text is available under [https://github.com/whatwedo/docker-base-images/blob/master/LICENSE](https://github.com/whatwedo/docker-base-images/blob/master/LICENSE).
+This image is licensed under the MIT License. The full license text is available under [https://github.com/whatwedo/docker-base-images/blob/v1.7/LICENSE](https://github.com/whatwedo/docker-base-images/blob/v1.7/LICENSE).
 
 ## Further information
 

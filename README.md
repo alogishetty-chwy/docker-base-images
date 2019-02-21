@@ -1,29 +1,29 @@
 # whatwedo - Docker Base Images
 
-[![build status](https://dev.whatwedo.ch/whatwedo/docker-base-images/badges/master/build.svg)](https://dev.whatwedo.ch/whatwedo/docker-base-images/commits/master)
+[![build status](https://dev.whatwedo.ch/whatwedo/docker-base-images/badges/v1.7/build.svg)](https://dev.whatwedo.ch/whatwedo/docker-base-images/commits/master)
 
 We at [whatwedo](https://whatwedo.ch/) are slowly going away from traditional application hosting to the approach of using Docker containers. For this reason we built several docker images. They are available on [Dockerhub](https://hub.docker.com/u/whatwedo/). You can use them easily in your own projects.
 
 ## Images
 | Name | Description |
 |---|---|
-| [whatwedo/base](https://github.com/whatwedo/docker-base-images/tree/master/images/base.md) | several base packages for daily working with docker installed |
-| [whatwedo/nginx](https://github.com/whatwedo/docker-base-images/tree/master/images/nginx.md) | nginx webserver |
-| [whatwedo/nginx-php56](https://github.com/whatwedo/docker-base-images/tree/master/images/nginx-php56.md) | nginx webserver including PHP 5.6 |
-| [whatwedo/nginx-php70](https://github.com/whatwedo/docker-base-images/tree/master/images/nginx-php70.md) | nginx webserver including PHP 7.0 |
-| [whatwedo/nginx-php71](https://github.com/whatwedo/docker-base-images/tree/master/images/nginx-php72.md) | nginx webserver including PHP 7.1 |
-| [whatwedo/nginx-php72](https://github.com/whatwedo/docker-base-images/tree/master/images/nginx-php72.md) | nginx webserver including PHP 7.2 |
-| [whatwedo/openldap](https://github.com/whatwedo/docker-base-images/tree/master/images/openldap.md) | openLDAP server |
-| [whatwedo/php56](https://github.com/whatwedo/docker-base-images/tree/master/images/php56.md) | PHP 5.6 interpreter |
-| [whatwedo/php70](https://github.com/whatwedo/docker-base-images/tree/master/images/php70.md) | PHP 7.0 interpreter |
-| [whatwedo/php71](https://github.com/whatwedo/docker-base-images/tree/master/images/php71.md) | PHP 7.1 interpreter |
-| [whatwedo/php72](https://github.com/whatwedo/docker-base-images/tree/master/images/php72.md) | PHP 7.2 interpreter |
-| [whatwedo/symfony2](https://github.com/whatwedo/docker-base-images/tree/master/images/symfony2.md) | nginx configured for running Symfony 2 |
-| [whatwedo/symfony3](https://github.com/whatwedo/docker-base-images/tree/master/images/symfony3.md) | nginx configured for running Symfony 3 |
-| [whatwedo/symfony4](https://github.com/whatwedo/docker-base-images/tree/master/images/symfony4.md) | nginx configured for running Symfony 4 |
-| [whatwedo/wordpress-nginx-w3tc](https://github.com/whatwedo/docker-base-images/tree/master/images/wordpress-nginx-w3tc.md) | WordPress running on nginx with PHP 7.0 and W3 Total Cache configuration |
+| [whatwedo/base](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/base.md) | several base packages for daily working with docker installed |
+| [whatwedo/nginx](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/nginx.md) | nginx webserver |
+| [whatwedo/nginx-php56](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/nginx-php56.md) | nginx webserver including PHP 5.6 |
+| [whatwedo/nginx-php70](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/nginx-php70.md) | nginx webserver including PHP 7.0 |
+| [whatwedo/nginx-php71](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/nginx-php72.md) | nginx webserver including PHP 7.1 |
+| [whatwedo/nginx-php72](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/nginx-php72.md) | nginx webserver including PHP 7.2 |
+| [whatwedo/openldap](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/openldap.md) | openLDAP server |
+| [whatwedo/php56](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/php56.md) | PHP 5.6 interpreter |
+| [whatwedo/php70](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/php70.md) | PHP 7.0 interpreter |
+| [whatwedo/php71](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/php71.md) | PHP 7.1 interpreter |
+| [whatwedo/php72](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/php72.md) | PHP 7.2 interpreter |
+| [whatwedo/symfony2](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/symfony2.md) | nginx configured for running Symfony 2 |
+| [whatwedo/symfony3](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/symfony3.md) | nginx configured for running Symfony 3 |
+| [whatwedo/symfony4](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/symfony4.md) | nginx configured for running Symfony 4 |
+| [whatwedo/wordpress-nginx-w3tc](https://github.com/whatwedo/docker-base-images/tree/v1.7/images/wordpress-nginx-w3tc.md) | WordPress running on nginx with PHP 7.0 and W3 Total Cache configuration |
 
-https://github.com/whatwedo/docker-base-images/tree/master/images
+https://github.com/whatwedo/docker-base-images/tree/v1.7/images
 
 ## Directory/File Layout
 The following table show the directory Layout of this repository:
@@ -39,7 +39,7 @@ The following table show the directory Layout of this repository:
 | `Vagrantfile`| Developer VM configuration |  
 
 ## dockerbuilder.sh
-Because we are using several base images with recurring tasks in the Dockerfile, we are using a script to include commands. This script is available under [https://github.com/whatwedo/docker-base-images/blob/master/docker-builder.sh](https://github.com/whatwedo/docker-base-images/blob/master/docker-builder.sh). Feel free to use it in your own projects.
+Because we are using several base images with recurring tasks in the Dockerfile, we are using a script to include commands. This script is available under [https://github.com/whatwedo/docker-base-images/blob/v1.7/docker-builder.sh](https://github.com/whatwedo/docker-base-images/blob/v1.7/docker-builder.sh). Feel free to use it in your own projects.
 
 ### Usage
 
@@ -64,7 +64,7 @@ The repository root will be mounted under `/vagrant`
 If you have any problems with this image, feel free to open a new issue in our issue tracker [https://github.com/whatwedo/docker-base-images/issues](https://github.com/whatwedo/docker-base-images/issues)
 
 ## License
-This image is licensed under the MIT License. The full license text is available under [https://github.com/whatwedo/docker-base-images/blob/master/LICENSE](https://github.com/whatwedo/docker-base-images/blob/master/LICENSE).
+This image is licensed under the MIT License. The full license text is available under [https://github.com/whatwedo/docker-base-images/blob/v1.7/LICENSE](https://github.com/whatwedo/docker-base-images/blob/v1.7/LICENSE).
 
 ## Further information
 There are a number of images we are using at [https://whatwedo.ch/](whatwedo). Feel free to use them. More information about the other images are available in [our Github repo](https://github.com/whatwedo/docker-base-images).
