@@ -54,18 +54,21 @@ bind:
 
 cloudflare-railgun:
     <<: *docker_build_image
+    when: manual
 
 docker:
     <<: *docker_build_image
 
 elasticsearch:
     <<: *docker_build_image
+    when: manual
 
 golang:
     <<: *docker_build_image
 
 icinga2:
     <<: *docker_build_image
+    when: manual
 
 java:
     <<: *docker_build_image
@@ -81,9 +84,11 @@ logstash:
 
 mariadb:
     <<: *docker_build_image
+    when: manual
 
 memcached:
     <<: *docker_build_image
+    when: manual
 
 mongodb:
     <<: *docker_build_image
@@ -111,6 +116,7 @@ node:
 
 openldap:
     <<: *docker_build_image
+    when: manual
 
 owncloud:
     <<: *docker_build_image
@@ -129,6 +135,7 @@ php72:
 
 postgres:
     <<: *docker_build_image
+    when: manual
 
 puppet-client:
     <<: *docker_build_image
@@ -136,6 +143,7 @@ puppet-client:
 redis:
     <<: *docker_build_image
     stage: late
+    when: manual
 
 ruby:
     <<: *docker_build_image
@@ -157,6 +165,7 @@ tomcat:
 
 wordpress-nginx-w3tc:
     <<: *docker_build_image
+    when: manual
 
 wordpress:
     <<: *docker_build_image
