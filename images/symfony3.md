@@ -2,6 +2,8 @@
 
 In this image is a basic nginx webserver with PHP 7.0 installation available. It is configured to run a Symfony 3 application placed in /var/www. There are no SSL enabled per default.
 
+**Note:**: You're looking to an old version of this image which is not supported anymore and will receive security updates only. Please migrate to the [v2.0](https://github.com/whatwedo/docker-base-images/tree/v2.0/images/symfony3) release.
+
 ## Usage
 
 ```

@@ -2,6 +2,8 @@
 
 In this image is a basic nginx webserver installation available. There are no SSL enabled per default.
 
+**Note:**: You're looking to an old version of this image which is not supported anymore and will receive security updates only. Please migrate to the [v2.0](https://github.com/whatwedo/docker-base-images/tree/v2.0/images/base) release.
+
 ## Usage
 
 ```
