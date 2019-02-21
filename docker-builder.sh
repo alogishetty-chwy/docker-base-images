@@ -114,9 +114,12 @@ build-cached-image() {
 
 # Publish the given image
 publish-image() {
-  VERSION="$(git describe --tags `git rev-list --tags --max-count=1`)"
+  VERSION="v1.7"
+  DATE=`date +%Y%m%d`
   docker tag $1 whatwedo/$1:$VERSION
   docker push whatwedo/$1:$VERSION
+  docker tag $1 whatwedo/$1:$VERSION-$DATE
+  docker push whatwedo/$1:$VERSION-$DATE
   docker tag $1 whatwedo/$1:latest
   docker push whatwedo/$1:latest
 }
