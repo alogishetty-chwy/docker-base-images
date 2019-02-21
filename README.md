@@ -1,6 +1,6 @@
 # whatwedo - Docker Base Images
 
-[![build status](https://dev.whatwedo.ch/whatwedo/docker-base-images/badges/v1.7/build.svg)](https://dev.whatwedo.ch/whatwedo/docker-base-images/commits/master)
+[![build status](https://dev.whatwedo.ch/whatwedo/docker-base-images/badges/v1.7/build.svg)](https://dev.whatwedo.ch/whatwedo/docker-base-images/commits/v1.7)
 
 We at [whatwedo](https://whatwedo.ch/) are slowly going away from traditional application hosting to the approach of using Docker containers. For this reason we built several docker images. They are available on [Dockerhub](https://hub.docker.com/u/whatwedo/). You can use them easily in your own projects.
 
