@@ -1,5 +1,9 @@
 #Add PPA
 RUN add-apt-repository -y ppa:ondrej/php
+
+# use our own mirror for php packages on ubuntu 14.04
+RUN echo "deb https://ondrej-mirror.whatwedo.io/php/ trusty main" > /etc/apt/sources.list.d/ondrej-php-trusty.list
+
 RUN apt-get update
 
 # see https://github.com/oerdnj/deb.sury.org/issues/683
